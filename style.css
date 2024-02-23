@@ -1,0 +1,90 @@
+.bgimg{
+    background-image: url(./Images/main\ img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    filter: contrast(0.7);
+    background-blend-mode: multiply;
+    background-color: #5e4f4491;
+    position: relative;
+}
+.innernav {
+    overflow-x: hidden;
+}
+
+.line{
+    width: 50px;
+    height: 2px;
+    background-color:#E86038;
+}
+.bgcolor{
+    background-color: #E86038;
+}
+.line1{
+    background-color: white;
+    width: 50px;
+    height: 2px;
+}
+.btn2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 10px;
+    border: 2px solid transparent;
+}
+.btn2:hover{
+    border-color: #E86038;
+}
+.btn1{
+    background-color: #E86038;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 10px;
+    border: 2px solid transparent;
+}
+.btn:hover{
+    border-color: #E86038;
+}
+.btn4{
+    display: block;
+    width: 100%;
+}
+
+.inner{
+    position: absolute;
+    /* top: 250px; */
+    top: 25%;
+}
+.innernav{
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+svg{
+    transform: scale(2.5);
+    fill: #E86038;
+    margin: 20px;
+}
+.heading1{
+    font-weight: bolder;
+    font-size: 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.btn3{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.icons svg{
+    fill: black;
+}
+.last{
+    height: 150px;
+}
